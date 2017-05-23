@@ -2,6 +2,6 @@ var express = require("express");
 var router = new express.Router();
 var filmRouter = require("./films.js");
 
-router.use("/films", filmRouter);
+router.use("/api/films", filmRouter);
 
 module.exports = router;
